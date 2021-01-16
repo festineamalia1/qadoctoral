@@ -1,0 +1,1057 @@
+2016/01/24 13:14:03 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:319)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (319)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:14:23 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:319)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (319)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:16:14 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:319)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (319)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:16:18 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:319)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (319)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:27:29 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:304)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (304)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:28:09 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:304)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (304)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:33:10 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:304)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (304)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:33:27 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:304)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (304)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:34:06 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:315)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (315)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:34:42 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:305)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (305)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:34:44 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:305)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (305)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 13:35:51 [error] [php] Undefined index: penggunaan (C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php:305)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatapengelolaan
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (305)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/24 23:43:16 [error] [php] Division by zero (C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_pdf_perolehan.php:595)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): PengelolaanDanaController->renderFile()
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php(752): PengelolaanDanaController->renderPartial()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionCetakPDFperolehan()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/CetakPDFperolehan/?id_prodi=340&id_administrasi=4
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_pdf_perolehan.php (595)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (752)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 04:39:34 [error] [php] Undefined variable: tot_copy (C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_data_sarana.php:152)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): PengelolaanDanaController->renderFile()
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php(1274): PengelolaanDanaController->renderPartial()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionSentDataSarana()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatasarana
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_data_sarana.php (152)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (1274)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 04:44:07 [error] [php] Undefined variable: tot_copy (C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_data_sarana.php:152)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): PengelolaanDanaController->renderFile()
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php(1274): PengelolaanDanaController->renderPartial()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionSentDataSarana()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/pengelolaandana/sentdatasarana
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\pengelolaanDana\v_data_sarana.php (152)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengelolaanDanaController.php (1274)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 15:38:40 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\evaluasiLulusan\admin.php(84): EvaluasiLulusanController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): EvaluasiLulusanController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): EvaluasiLulusanController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): EvaluasiLulusanController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\EvaluasiLulusanController.php(180): EvaluasiLulusanController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): EvaluasiLulusanController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): EvaluasiLulusanController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): EvaluasiLulusanController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): EvaluasiLulusanController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): EvaluasiLulusanController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/EvaluasiLulusan/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\evaluasiLulusan\admin.php (84)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\EvaluasiLulusanController.php (180)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 15:40:23 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\hasilStudi\admin.php(70): HasilStudiController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): HasilStudiController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): HasilStudiController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): HasilStudiController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\HasilStudiController.php(158): HasilStudiController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): HasilStudiController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): HasilStudiController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): HasilStudiController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): HasilStudiController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): HasilStudiController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/HasilStudi/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\hasilStudi\admin.php (70)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\HasilStudiController.php (158)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 15:41:51 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\capaianDosen\admin.php(86): CapaianDosenController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): CapaianDosenController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): CapaianDosenController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): CapaianDosenController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\CapaianDosenController.php(174): CapaianDosenController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): CapaianDosenController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CapaianDosenController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CapaianDosenController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CapaianDosenController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CapaianDosenController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/CapaianDosen/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\capaianDosen\admin.php (86)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\CapaianDosenController.php (174)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/26 15:42:29 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\capaianDosen\admin.php(86): CapaianDosenController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): CapaianDosenController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): CapaianDosenController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): CapaianDosenController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\CapaianDosenController.php(174): CapaianDosenController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): CapaianDosenController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CapaianDosenController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CapaianDosenController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CapaianDosenController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CapaianDosenController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/CapaianDosen/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\capaianDosen\admin.php (86)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\CapaianDosenController.php (174)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:06:56 [warning] [application] Failed to set unsafe attribute "lampiran" of "penelitian".
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PenelitianController.php (104)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:12:46 [warning] [application] Failed to set unsafe attribute "lampiran" of "KerjasamaDlm_ps".
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KerjasamaDlm_psController.php (103)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:13:38 [warning] [application] Failed to set unsafe attribute "lampiran" of "KerjasamaLuar_ps".
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KerjasamaLuar_psController.php (103)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:23:15 [warning] [application] Failed to set unsafe attribute "lampiran" of "DataDosen".
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DataDosenController.php (73)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:24:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jaminan_sync`.`aktivitas_dosen_tetap_semester`, CONSTRAINT `aktivitas_dosen_tetap_semester_ibfk_3` FOREIGN KEY (`id_dosen`) REFERENCES `data_dosen` (`id_dosen`)). The SQL statement executed was: DELETE FROM `data_dosen` WHERE `data_dosen`.`id_dosen`=55555.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DataDosenController.php (126)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:24:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jaminan_sync`.`aktivitas_dosen_tetap_semester`, CONSTRAINT `aktivitas_dosen_tetap_semester_ibfk_3` FOREIGN KEY (`id_dosen`) REFERENCES `data_dosen` (`id_dosen`)). The SQL statement executed was: DELETE FROM `data_dosen` WHERE `data_dosen`.`id_dosen`=55555' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('55555')
+#2 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DataDosenController.php(126): CActiveRecord->delete()
+#3 [internal function]: DataDosenController->actionDelete('55555')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DataDosenController), Array)
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataDosenController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('datadosen/delet...')
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/qadoktoral/jaminan/datadosen/delete/id/55555?ajax=data-dosen-grid
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/datadosen/admin
+---
+2016/01/27 05:24:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jaminan_sync`.`aktivitas_dosen_tetap_semester`, CONSTRAINT `aktivitas_dosen_tetap_semester_ibfk_3` FOREIGN KEY (`id_dosen`) REFERENCES `data_dosen` (`id_dosen`)). The SQL statement executed was: DELETE FROM `data_dosen` WHERE `data_dosen`.`id_dosen`=55555.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DataDosenController.php (126)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 05:24:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`jaminan_sync`.`aktivitas_dosen_tetap_semester`, CONSTRAINT `aktivitas_dosen_tetap_semester_ibfk_3` FOREIGN KEY (`id_dosen`) REFERENCES `data_dosen` (`id_dosen`)). The SQL statement executed was: DELETE FROM `data_dosen` WHERE `data_dosen`.`id_dosen`=55555' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:357
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('55555')
+#2 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DataDosenController.php(126): CActiveRecord->delete()
+#3 [internal function]: DataDosenController->actionDelete('55555')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(DataDosenController), Array)
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(DataDosenController), Object(ReflectionMethod), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1116): CFilterChain->run()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('datadosen/delet...')
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/qadoktoral/jaminan/datadosen/delete/id/55555?ajax=data-dosen-grid
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/datadosen/admin
+---
+2016/01/27 06:14:30 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\qadoktoral\jaminan\protected\views\kurikulum\v_pdf_struktur.php:153)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): KurikulumController->renderFile()
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php(687): KurikulumController->renderPartial()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): KurikulumController->actionCetakPDFStruktur()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): KurikulumController->runAction()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): KurikulumController->filterAccessControl()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): KurikulumController->runActionWithFilters()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): KurikulumController->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/Kurikulum/CetakPDFStruktur/?id_prodi=315&id_administrasi=2
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\kurikulum\v_pdf_struktur.php (153)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php (687)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/27 06:18:48 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\qadoktoral\jaminan\protected\views\kurikulum\v_pdf_struktur.php:153)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): KurikulumController->renderFile()
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php(687): KurikulumController->renderPartial()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): KurikulumController->actionCetakPDFStruktur()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): KurikulumController->runAction()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): KurikulumController->filterAccessControl()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): KurikulumController->runActionWithFilters()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): KurikulumController->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/Kurikulum/CetakPDFStruktur/?id_prodi=315&id_administrasi=2
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\kurikulum\v_pdf_struktur.php (153)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php (687)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/28 08:35:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mk.perkuliahan' in 'field list'. The SQL statement executed was: SELECT `mk`.*, `mk`.`perkuliahan`
+FROM `kurikulum_tdk_tetap` `mk`
+JOIN `prodi` `p` ON mk.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON a.id_administrasi=mk.id_administrasi
+WHERE (p.id_prodi=:id) AND (a.id_administrasi=:id_a).
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php (583)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/28 08:35:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mk.perkuliahan' in 'field list'. The SQL statement executed was: SELECT `mk`.*, `mk`.`perkuliahan`
+FROM `kurikulum_tdk_tetap` `mk`
+JOIN `prodi` `p` ON mk.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON a.id_administrasi=mk.id_administrasi
+WHERE (p.id_prodi=:id) AND (a.id_administrasi=:id_a)' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php(583): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): KurikulumController->actionSentDataStruktur()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SentDataStruktu...')
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Kurikulum/SentD...')
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/qadoktoral/jaminan/Kurikulum/SentDataStruktur
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/kurikulum/getdata
+---
+2016/01/28 08:35:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mk.perkuliahan' in 'field list'. The SQL statement executed was: SELECT `mk`.*, `mk`.`perkuliahan`
+FROM `kurikulum_tdk_tetap` `mk`
+JOIN `prodi` `p` ON mk.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON a.id_administrasi=mk.id_administrasi
+WHERE (p.id_prodi=:id) AND (a.id_administrasi=:id_a).
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php (583)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/28 08:35:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mk.perkuliahan' in 'field list'. The SQL statement executed was: SELECT `mk`.*, `mk`.`perkuliahan`
+FROM `kurikulum_tdk_tetap` `mk`
+JOIN `prodi` `p` ON mk.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON a.id_administrasi=mk.id_administrasi
+WHERE (p.id_prodi=:id) AND (a.id_administrasi=:id_a)' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\KurikulumController.php(583): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): KurikulumController->actionSentDataStruktur()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SentDataStruktu...')
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Kurikulum/SentD...')
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/qadoktoral/jaminan/Kurikulum/SentDataStruktur
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/kurikulum/getdata
+---
+2016/01/28 08:42:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php (854)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/01/28 08:42:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(854): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionSearchAkreditasi()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SearchAkreditas...')
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/SearchAkre...')
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/SearchAkreditasi
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/akreditasi
+---
+2016/01/29 03:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "file/Lampiran/ERP.zip".' in C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/Lampiran/E...')
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qadoktoral/jaminan/file/Lampiran/ERP.zip
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/penelitian/admin
+---
+2016/03/01 02:29:19 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\danaPenelitian\admin.php(82): DanaPenelitianController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): DanaPenelitianController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): DanaPenelitianController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): DanaPenelitianController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DanaPenelitianController.php(143): DanaPenelitianController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): DanaPenelitianController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): DanaPenelitianController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): DanaPenelitianController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): DanaPenelitianController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): DanaPenelitianController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/DanaPenelitian/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\danaPenelitian\admin.php (82)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DanaPenelitianController.php (143)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/03/01 02:30:18 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\danaPenelitian\admin.php(82): DanaPenelitianController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): DanaPenelitianController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): DanaPenelitianController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): DanaPenelitianController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DanaPenelitianController.php(143): DanaPenelitianController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): DanaPenelitianController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): DanaPenelitianController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): DanaPenelitianController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): DanaPenelitianController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): DanaPenelitianController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/DanaPenelitian/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\danaPenelitian\admin.php (82)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\DanaPenelitianController.php (143)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/04/23 07:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js".' in C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/3ad55bb4...')
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qadoktoral/jaminan/assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/penjelasanPengelolaanDana/create
+---
+2016/04/23 07:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js".' in C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/3ad55bb4...')
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qadoktoral/jaminan/assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/visimisi/create
+---
+2016/04/24 08:19:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.pengisi_borang' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pengisi_borang`.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php (168)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/04/24 08:19:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pengisi_borang" for active record class "PengisiBorang" cannot be found in the database.' in C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(PengisiBorang))
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('PengisiBorang')
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php(168): CActiveRecord->__construct('search')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengisiBorangController->actionAdmin()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pengisiborang/a...')
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/qadoktoral/jaminan/pengisiborang/admin
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/manajemen
+---
+2016/04/24 11:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js".' in C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/3ad55bb4...')
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/qadoktoral/jaminan/assets/3ad55bb4/tiny_mce/tiny_mce_gzip.js
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/penjelasanPengelolaanDana/create
+---
+2016/05/01 03:30:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.pengisi_borang' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pengisi_borang`.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php (168)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/05/01 03:30:15 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pengisi_borang" for active record class "PengisiBorang" cannot be found in the database.' in C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(PengisiBorang))
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('PengisiBorang')
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php(168): CActiveRecord->__construct('search')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengisiBorangController->actionAdmin()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pengisiborang/a...')
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/qadoktoral/jaminan/pengisiborang/admin
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/manajemen
+---
+2016/05/03 07:27:22 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\user\admin.php(69): UserController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): UserController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): UserController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\UserController.php(143): UserController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): UserController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/user/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\user\admin.php (69)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\UserController.php (143)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/05/03 07:28:35 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qadoktoral\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\views\user\admin.php(69): UserController->widget()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CBaseController.php(95): UserController->renderInternal()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(869): UserController->renderFile()
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(782): UserController->renderPartial()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\UserController.php(143): UserController->render()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#21 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#24 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): UserController->run()
+#25 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qadoktoral/jaminan/user/admin
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\views\user\admin.php (69)
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\UserController.php (143)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/05/19 12:17:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.pengisi_borang' doesn't exist. The SQL statement executed was: SELECT *
+FROM `pengisi_borang`
+WHERE (id_prodi=:id) AND (id_administrasi=:id_ad).
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\ProdiController.php (230)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/05/19 12:17:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.pengisi_borang' doesn't exist. The SQL statement executed was: SELECT *
+FROM `pengisi_borang`
+WHERE (id_prodi=:id) AND (id_administrasi=:id_ad)' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\ProdiController.php(230): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): ProdiController->actionSentData()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('sentdata')
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('prodi/sentdata')
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/qadoktoral/jaminan/prodi/sentdata
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/prodi/getdata
+---
+2016/05/19 12:18:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php (854)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/05/19 12:18:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(854): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionSearchAkreditasi()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SearchAkreditas...')
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/SearchAkre...')
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/SearchAkreditasi
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/akreditasi
+---
+2016/06/03 10:34:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.pengisi_borang' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pengisi_borang`.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php (168)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2016/06/03 10:34:32 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pengisi_borang" for active record class "PengisiBorang" cannot be found in the database.' in C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php:2310
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(PengisiBorang))
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(402): CActiveRecord::model('PengisiBorang')
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(77): CActiveRecord->getMetaData()
+#3 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\PengisiBorangController.php(168): CActiveRecord->__construct('search')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): PengisiBorangController->actionAdmin()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pengisiborang/a...')
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/qadoktoral/jaminan/pengisiborang/admin
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/manajemen
+---
+2018/07/07 13:45:47 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id.
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php (854)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2018/07/07 13:45:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE d.id_prodi=:id' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(854): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionSearchAkreditasi()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SearchAkreditas...')
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/SearchAkre...')
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/SearchAkreditasi
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/akreditasi
+---
+2018/07/07 13:45:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE (d.id_prodi=:id) AND (d.id_administrasi=:id_a).
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php (865)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2018/07/07 13:45:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE (d.id_prodi=:id) AND (d.id_administrasi=:id_a)' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(865): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionSearchAkreditasi()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SearchAkreditas...')
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/SearchAkre...')
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/SearchAkreditasi
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/akreditasi
+---
+2018/07/07 13:46:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE (d.id_prodi=:id) AND (d.id_administrasi=:id_a).
+in C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php (865)
+in C:\xampp\htdocs\qadoktoral\jaminan\index.php (13)
+2018/07/07 13:46:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jaminan_sync.daftar_isi' doesn't exist. The SQL statement executed was: SELECT `a`.`id_administrasi`, `a`.`th_akademik`, `a`.`th_akreditasi`, `p`.`jurusan`, `d`.`id_prodi`
+FROM `daftar_isi` `d`
+JOIN `prodi` `p` ON d.id_prodi=p.id_prodi
+JOIN `administrasi` `a` ON d.id_administrasi=a.id_administrasi
+WHERE (d.id_prodi=:id) AND (d.id_administrasi=:id_a)' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbCommand.php(395): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(865): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionSearchAkreditasi()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('SearchAkreditas...')
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/SearchAkre...')
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/SearchAkreditasi
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/akreditasi
+---
+2019/06/20 10:26:41 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'jaminan_sync' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#7 C:\xampp\htdocs\qadoktoral\jaminan\protected\models\User.php(26): CActiveRecord::model('User')
+#8 C:\xampp\htdocs\qadoktoral\jaminan\protected\components\UserIdentity.php(33): User::model()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#13 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(98): CModel->validate()
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/login
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/login
+---
+2019/06/20 10:26:54 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'jaminan_sync' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(438): CModule->getComponent('db')
+#4 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(623): CApplication->getDb()
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(2309): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\db\ar\CActiveRecord.php(387): CActiveRecordMetaData->__construct(Object(User))
+#7 C:\xampp\htdocs\qadoktoral\jaminan\protected\models\User.php(26): CActiveRecord::model('User')
+#8 C:\xampp\htdocs\qadoktoral\jaminan\protected\components\UserIdentity.php(33): User::model()
+#9 C:\xampp\htdocs\qadoktoral\jaminan\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#13 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(98): CModel->validate()
+#14 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#15 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#19 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#20 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/login
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/login
+---
+2019/06/20 10:27:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'jaminan_sync' in C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php:381
+Stack trace:
+#0 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\xampp\htdocs\qadoktoral\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\xampp\htdocs\qadoktoral\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\qadoktoral\jaminan\protected\controllers\SiteController.php(127): CModule->__get('db')
+#5 C:\xampp\htdocs\qadoktoral\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionDashboard()
+#6 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\qadoktoral\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(282): CController->run('dashboard')
+#10 C:\xampp\htdocs\qadoktoral\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dashboard')
+#11 C:\xampp\htdocs\qadoktoral\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\qadoktoral\jaminan\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/qadoktoral/jaminan/site/dashboard
+HTTP_REFERER=http://localhost/qadoktoral/jaminan/site/login
+---

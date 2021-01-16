@@ -1,0 +1,202 @@
+<style type="text/css">
+	table{
+		font-size: 12px;
+	}
+	table.min{
+		font-size: 10px;
+	}
+	table.min th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	table.kusus th{
+		text-align: center;
+		vertical-align: middle;
+	}
+</style>
+
+<?
+if($id_prodi==1) {
+?>
+	<div class="alert alert-error">
+	  Maaf Data yang Anda inginkan tidak ada.
+	</div>
+<?
+} else {
+?>
+	<p>5.4 Penelitian Tesis</p>
+	<td>1. Ketersediaan Panduan</td>
+	<?php
+		if(empty($proses['ketersediaan_panduan'])){
+		
+			?>
+				<div class="alert alert-error">
+				  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+				</div>
+			<?
+		}else{
+		?>
+		<div style="border:1px solid black;padding:5px;">
+			<?php
+			
+			//foreach ($proses as $key => $value) {
+				echo"<p>".$proses['ketersediaan_panduan']."</p>";
+			//}
+			?>
+						</div>
+		<?php } ?>
+
+		<br>
+
+		<td>2. Kebijakan pembimbingan</td>
+		<?php
+		if(empty($proses['kebijakan_pembimbingan'])){
+		
+			?>
+				<div class="alert alert-error">
+				  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+				</div>
+			<?
+		}else{
+		?>
+		<div style="border:1px solid black;padding:5px;">
+			<?php
+			
+			//foreach ($proses as $key => $value) {
+				echo"<p>".$proses['kebijakan_pembimbingan']."</p>";
+			//}
+			?>
+						</div>
+		<?php } ?>
+
+		<td>3. Mekanisme penunjukan pembimbing  dan mahasiswa bimbingan</td>
+		<?php
+		if(empty($proses['mekanisme_penunjukkan'])){
+		
+			?>
+				<div class="alert alert-error">
+				  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+				</div>
+			<?
+		}else{
+		?>
+		<div style="border:1px solid black;padding:5px;">
+			<?php
+			
+			//foreach ($proses as $key => $value) {
+				echo"<p>".$proses['mekanisme_penunjukkan']."</p>";
+			//}
+			?>
+						</div>
+		<?php } ?>
+
+		<td>4. Proses Pembimbingan</td>
+		<?php
+		if(empty($proses['proses_pembimbingan'])){
+		
+			?>
+				<div class="alert alert-error">
+				  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+				</div>
+			<?
+		}else{
+		?>
+		<div style="border:1px solid black;padding:5px;">
+			<?php
+			
+			//foreach ($proses as $key => $value) {
+				echo"<p>".$proses['proses_pembimbingan']."</p>";
+			//}
+			?>
+						</div>
+		<?php } ?>
+
+	<br>	
+
+
+
+
+	
+
+	<p>5.4.1 Tuliskan nama dosen pembimbing akademik dan jumlah mahasiswa yang dibimbingnya dengan mengikuti format tabel berikut : </p>
+	<?php
+	if(empty($data)){
+		?>
+			<div class="alert alert-error">
+			  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+			</div>
+		<?
+	}else{
+	?>
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th rowspan="2">No.</th>
+				<th rowspan="2">Nama Dosen Pembimbing Akademik</th>
+				<th rowspan="2">Pendidikan Tertinggi</th>
+				<th rowspan="2">Jabatan Akademik Dosen</th>
+
+				<th rowspan="1" colspan="2">Banyaknya Mahasiswa yang Dibimbing dan Status Pembimbing</th>
+			</tr>
+			<tr>
+				<th rowspan="2">Ketua</th>
+				<th rowspan="2">Anggota</th>
+			</tr>
+
+		</thead>
+		<tbody>
+			<?
+			$i = 0;
+			$totalA = 0;
+			$totalB=0;
+			$rata = 0;
+			foreach ($data as $key => $value) {
+				$i++;
+				$rata += $value['rata_penyelesaian'];
+				$totalA += $value['jml_ketua'];
+				$totalB += $value['jml_anggota'];
+				?>
+				<tr>
+					<td style="text-align:center;"><?=$i?></td>
+					<td style="text-align:left;"><?=$value['nama_dosen']?>, <?=$value['gelar_akademik']?></td>
+					<td style="text-align:center;"><?=$value['pendidikan_tertinggi']?></td>
+					<td style="text-align:center;"><?=$value['jabatan_dosen']?></td>
+					<td style="text-align:center;"><?=$value['jml_ketua']?></td>
+					<td style="text-align:center;"><?=$value['jml_anggota']?></td>
+
+				</tr>
+				<?
+			}
+			?>
+			<tr>
+				<td colspan="2" style="text-align:center;">Total</td>
+				<td style="background:#333;"></td>
+				<td style="background:#333;"></td>
+				<td style="text-align:center;"><?=$totalA?></td>
+				<td style="text-align:center;"><?=$totalB?></td>
+			</tr>
+			
+		</tbody>
+		<tfoot>
+
+		</tfoot>
+	</table>
+	<?php } ?>
+	<br>
+	<p>
+		<tr>
+				<td colspan="4" style="text-align:left;">5.4.3  Rata-rata lama penyelesaian tugas akhir/tesis pada tiga tahun terakhir : <?=($rata/$i)?> bulan</td>
+			</tr>
+		</p>
+			
+	
+	<div class="row-fluid">
+		<div class="span12" style="text-align:right;margin-top:50px;">
+			<a href="<?=Yii::app()->getBaseUrl(true)?>/kurikulum/CetakPDFpembimbingan/?id_prodi=<?=$id_prodi?>&id_administrasi=<?=$id_administrasi?>" target="_blank" class="btn btn-primary" value="Cetak Borang"> <i class="icon-print icon-white"></i> Cetak Borang</a>
+		</div>
+	</div>
+
+
+<?php
+}
+?>

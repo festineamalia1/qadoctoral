@@ -1,0 +1,135 @@
+<?php
+
+/**
+ * This is the model class for table "dana_operasional".
+ *
+ * The followings are the available columns in table 'dana_operasional':
+ * @property integer $id_dana_operasional
+ * @property string $nama_prodi
+ * @property string $th_akademik
+ * @property string $jumlah_mhs_TS
+ * @property string $jumlah_dana_TS
+ * @property string $jumlah_mhs_TS2
+ * @property string $jumlah_dana_TS2
+ * @property string $jumlah_mhs_TS3
+ * @property string $jumlah_dana_TS3
+ * @property integer $id_administrasi
+ * @property integer $id_prodi
+ */
+class DanaOperasional extends CActiveRecord
+{
+	 public $th_akademik_search;
+	 public $nama_prodi_search;
+	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return DanaOperasional the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'dana_operasional';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('jumlah_mhs_TS, jumlah_dana_TS, jumlah_mhs_TS2, jumlah_dana_TS2, jumlah_mhs_TS3, jumlah_dana_TS3, id_administrasi, id_prodi', 'required'),
+			array('id_administrasi, id_prodi', 'numerical', 'integerOnly'=>true),
+			
+			array('jumlah_mhs_TS, jumlah_mhs_TS2, jumlah_mhs_TS3', 'safe'),
+			array('jumlah_dana_TS, jumlah_dana_TS2, jumlah_dana_TS3', 'length', 'max'=>20),
+			// The following rule is used by search().
+			// Please remove those attributes that should not be searched.
+			array('id_dana_operasional,th_akademik_search, nama_prodi_search, jumlah_mhs_TS, jumlah_dana_TS, jumlah_mhs_TS2, jumlah_dana_TS2, jumlah_mhs_TS3, jumlah_dana_TS3, id_administrasi, id_prodi', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+			'relasi_administrasi'=>array(self::BELONGS_TO, 'Administrasi', 'id_administrasi'),
+			'relasi_prodi'=>array(self::BELONGS_TO, 'Prodi', 'id_prodi'),
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'id_dana_operasional' => 'Id Dana Operasional',
+
+			
+			'jumlah_mhs_TS' => 'Jumlah Mhs Ts',
+			'jumlah_dana_TS' => 'Jumlah Dana Ts',
+			'jumlah_mhs_TS2' => 'Jumlah Mhs Ts2',
+			'jumlah_dana_TS2' => 'Jumlah Dana Ts2',
+			'jumlah_mhs_TS3' => 'Jumlah Mhs Ts3',
+			'jumlah_dana_TS3' => 'Jumlah Dana Ts3',
+			'id_administrasi' => 'Tahun Pelaporan Borang Akreditasi',
+			'id_prodi' => 'Nama Prodi',
+
+			'th_akademik_search'=>'Tahun akademik',
+			'nama_prodi_search'=>'Nama Prodi',
+		);
+	}
+
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->with = array( 'relasi_prodi','relasi_administrasi' );
+
+		$criteria->compare('id_dana_operasional',$this->id_dana_operasional);
+	
+		$criteria->compare('jumlah_mhs_TS',$this->jumlah_mhs_TS,true);
+		$criteria->compare('jumlah_dana_TS',$this->jumlah_dana_TS,true);
+		$criteria->compare('jumlah_mhs_TS2',$this->jumlah_mhs_TS2,true);
+		$criteria->compare('jumlah_dana_TS2',$this->jumlah_dana_TS2,true);
+		$criteria->compare('jumlah_mhs_TS3',$this->jumlah_mhs_TS3,true);
+		$criteria->compare('jumlah_dana_TS3',$this->jumlah_dana_TS3,true);
+		$criteria->compare('id_administrasi',$this->id_administrasi);
+		$criteria->compare('id_prodi',$this->id_prodi);
+
+$criteria->compare('relasi_administrasi.th_akademik',$this->th_akademik_search,true);
+
+		$criteria->compare('relasi_prodi.nama_prodi',$this->nama_prodi_search,true);
+		// end tambahan
+		// tambahan
+		if(Yii::app()->user->group_id == 1){
+
+		}else{
+			$criteria->addColumnCondition(array('relasi_prodi.id_prodi'=>Yii::app()->user->group_id),'AND','AND');
+		}
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+}

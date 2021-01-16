@@ -1,0 +1,128 @@
+<style type="text/css">
+	table{
+		font-size: 12px;
+	}
+	table.min{
+		font-size: 10px;
+	}
+	table.min th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	table.kusus th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	p{
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.ket_atas{
+		font-size: 12px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.keterangan{
+		font-size: 11px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+</style>
+<?php if($id_prodi == 1){
+	?>
+	<p>
+		7.1  Penelitian Dosen Tetap yang Bidang Keahliannya Sesuai dengan PS dalam Tiga Tahun Terakhir
+	</p>
+	<p>
+	7.1.6   Tuliskan dosen yang melakukan penelitian dengan melibatkan mahasiswa program magister untuk penelitian tesisnya, pada tahun akademik terakhir (TS).
+	</p>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>		
+
+	<p>
+		7.1  Penelitian Dosen Tetap yang Bidang Keahliannya Sesuai dengan PS dalam Tiga Tahun Terakhir
+	</p>
+
+	<p style="padding-left:25px;">
+	7.1.6   Tuliskan dosen yang melakukan penelitian dengan melibatkan mahasiswa program magister untuk penelitian tesisnya, pada tahun akademik terakhir (TS).
+	</p>
+	
+	<?php
+	if(empty($data)){
+		?>
+			<div class="alert alert-error">
+			  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+			</div>
+		<?
+	}else{
+	?>
+	<table class="table table-bordered min">
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Nama Dosen Tetap</th>
+				<th>Topik Penelitian</th>
+				<th>Jumlah Mahasiswa yang terlibat</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php
+				$i=0;
+				$tot_jum_mhs_terlbt=0;
+				$tot_mhs_terlibat_tesis=0;
+				$tot_seluruh=0;
+
+				foreach ($data as $key => $value) {
+					$i++;
+				?>
+			<tr>
+				<td style="text-align:center"><?=$i?></td>
+				<td><?=$value['nama_dosen']?></td>
+				<td><?=$value['topik_penelitian_tesis']?></td>
+				<td><?=$value['jum_mhs_terlbt']?></td>
+			</tr>
+
+			<?php
+				$tot_jum_mhs_terlbt += $value['jum_mhs_terlbt'];
+
+				$tot_mhs_terlibat_tesis += $value['mhs_terlibat_tesis'];
+
+				$tot_seluruh += $tot_jum_mhs_terlbt + $tot_mhs_terlibat_tesis;
+			}
+			?>
+
+			
+		</tbody>
+		<tfoot>
+			<tr>
+				<th rowspan="1"  colspan="3">Total jumlah mahasiswa yang penelitian tesisnya terkait dengan penelitian dosen  </th>
+				<th><?=$tot_jum_mhs_terlbt?></th>	
+			</tr>
+			<tr>
+				<th rowspan="1" colspan="3">Jumlah mahasiswa yang penelitian tesisnya tidak terkait dengan penelitian dosen </th>
+				<th><?=$tot_mhs_terlibat_tesis?></th>
+			</tr>
+
+			<tr>
+				<th rowspan="1" colspan="3">Jumlah total</th>
+				<th><?=$tot_seluruh?></th>
+			</tr>
+
+		</tfoot>
+	</table>
+
+	<div class="row-fluid">
+		<div class="span12" style="text-align:right;">
+			<a href="<?=Yii::app()->getBaseUrl(true)?>/penelitian_Dosentetap_Ps_S2/CetakPDFtopik/?<?=(isset($id_prodi))? 'id_prodi='.$id_prodi.'&' : ''?>id_administrasi=<?=$id_administrasi?>" target="_blank" class="btn btn-primary" value="Cetak Borang"> <i class="icon-print icon-white"></i> Cetak Borang</a>
+		</div>
+	</div>
+
+
+	<?
+	}
+}
+?>

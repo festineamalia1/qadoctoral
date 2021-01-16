@@ -1,0 +1,95 @@
+<style type="text/css">
+	table{
+		/*border: thin solid black;*/
+		border-collapse: collapse;
+		width: 100%;
+	}
+	table tr th{
+		border: 0.01pt solid black;
+		border-top: 0.01pt solid black ;
+		font-weight: bold;
+		text-align: center;
+		padding: 10px;
+	}
+	table tr td{
+		border: 0.01pt solid black;
+		padding: 10px;
+	}
+	.judul{
+		text-align: center;
+		font-size: 16px;
+	}
+	.sub_judul{
+		text-align: left;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	p{
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.keterangan{
+		font-size: 11px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+</style>
+<p>5.5 Sistem Monitoring dan Evaluasi</p>
+<p>Untuk setiap aspek pada subbutir 5.5.1 s.d. 5.5.4, uraikan <br>(1) keberadaan standard operating procedure (SOP), <br>(2) keberadaan dan keefektifan lembaga/komisi pelaksana, dan <br>(3) mekanisme monev</p>
+<p>5.5.1 Proses  penyusunan usul penelitian dan pelaksanaan penelitian tesis</p>
+<?php
+if(empty($data['penyusun'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['penyusun']?>
+</div>
+<?php } ?>
+
+<p>5.5.2 Proses penulisan tesis</p>
+<?php
+if(empty($data['penulis'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['penulis']?>
+</div>
+<?php } ?>
+<p>5.5.3 Kelayakan dosen dalam proses pembimbingan</p>
+<?php
+if(empty($data['kelayakan_dosen'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['kelayakan_dosen']?>
+</div>
+<?php } ?>
+<p>5.5.4 Ujian akhir studi magister.</p>
+<?php
+if(empty($data['ujian_akhir'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['ujian_akhir']?>
+</div>
+<?php } ?>

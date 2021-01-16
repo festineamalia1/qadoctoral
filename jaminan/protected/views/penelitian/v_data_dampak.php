@@ -1,0 +1,71 @@
+<style type="text/css">
+	table{
+		font-size: 12px;
+	}
+	table.min{
+		font-size: 10px;
+	}
+	table.min th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	table.kusus th{
+		text-align: center;
+		vertical-align: middle;
+	}
+	p{
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.keterangan{
+		font-size: 11px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+</style>
+<p class="judul" style="font-weight:bold;">
+		7.1  Penelitian Dosen Tetap yang Bidang Keahliannya Sesuai dengan PS dalam Lima Tahun Terakhir
+	</p>
+	<p>
+		7.1.7  Jelaskan hasil penelitian dosen atau penelitian disertasi mahasiswa  pada butir 7.1.1. yang berdampak pada peningkatan (1) produktivitas, (2) kesejahteraan masyarakat, dan (3) mutu lingkungan
+	</p>
+<?
+if(empty($data)) {
+?>
+
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+	}else{
+?>
+<?
+		if($id_prodi==1) {
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan tidak ada. 
+		</div>
+	<?
+		} else {
+	?>
+		<div style="border:1px solid black;padding:5px;margin-bottom:20px;">
+			a. Dampak pada peningkatan produktivitas:<br>
+				<span style="margin-left:15px;"><?=$data['damp_produktifitas']?></span><br>		
+			b.  Dampak pada peningkatan kesejahteraan masyarakat:<br>	 
+				<span style="margin-left:15px;"><?=$data['damp_kesejahteraan_masyarakat']?></span><br>	
+			c.  Dampak pada peningkatan mutu lingkungan:<br>
+				<span style="margin-left:15px;"><?=$data['damp_mutu_lingkungan']?></span><br>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span12" style="text-align:right;">
+				<a href="<?=Yii::app()->getBaseUrl(true)?>/penelitian/CetakPDFdampak/?id_prodi=<?=$data['id_prodi']?>&id_administrasi=<?=$data['id_administrasi']?>" target="_blank" class="btn btn-primary" value="Cetak Borang"> <i class="icon-print icon-white"></i> Cetak Borang</a>
+			</div>
+		</div>
+
+	<?
+	}
+	?>
+<?
+}
+?>

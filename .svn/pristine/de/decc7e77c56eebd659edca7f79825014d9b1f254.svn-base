@@ -1,0 +1,96 @@
+<?php
+/* @var $this DanaOperasionalController */
+/* @var $model DanaOperasional */
+/* @var $form CActiveForm */
+?>
+
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'dana-operasional-form',
+	'enableAjaxValidation'=>false,
+)); ?>
+
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
+
+	<?php echo $form->errorSummary($model); ?>
+<?
+	if(Yii::app()->user->group_id == 1){
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAll(), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}else{
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAllByAttributes(array('id_prodi'=>Yii::app()->user->group_id)), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}
+?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_administrasi'); ?>
+		<?php echo $form->dropDownList($model, 'id_administrasi', CHtml::listData(
+		Administrasi::model()->findAll(), 'id_administrasi', 'th_akademik'),
+		array('prompt' => 'Pilih Administrasi')
+		); ?>
+	</div>
+
+	
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_mhs_TS'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'jumlah_mhs_TS'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_dana_TS'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'jumlah_dana_TS'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_mhs_TS2'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS2',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'jumlah_mhs_TS2'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_dana_TS2'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS2',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'jumlah_dana_TS2'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_mhs_TS3'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS3',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'jumlah_mhs_TS3'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jumlah_dana_TS3'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS3',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'jumlah_dana_TS3'); ?>
+	</div>
+
+	
+
+	
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->

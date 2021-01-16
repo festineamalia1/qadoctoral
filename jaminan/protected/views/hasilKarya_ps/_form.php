@@ -1,0 +1,132 @@
+<?php
+/* @var $this HasilKarya_psController */
+/* @var $model HasilKarya_ps */
+/* @var $form CActiveForm */
+?>
+
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'hasil-karya-ps-form',
+	'enableAjaxValidation'=>false,
+	'htmlOptions'=>array('enctype'=>'multipart/form-data'),
+	)); ?>
+
+	<p class="note alert">Kolom bertanda <span class="required">*</span> harus diisi.</p>
+
+	<?php echo $form->errorSummary($model,$header='<b>Kesalahan Pengisian Data : </b>',$footer='',$htmlOptions=array('class'=>'alert alert-error')); ?>
+
+	<!-- tambahan -->
+	<?
+	if(Yii::app()->user->group_id == 1){
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->error($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAll(), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}else{
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->error($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAllByAttributes(array('id_prodi'=>Yii::app()->user->group_id)), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}
+	?>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_administrasi'); ?>
+		<?php echo $form->error($model,'id_administrasi'); ?>
+		<?php echo $form->dropDownList($model, 'id_administrasi', CHtml::listData(
+		Administrasi::model()->findAll(), 'id_administrasi', 'th_akademik'),
+		array('prompt' => 'Pilih Administrasi')
+		); ?>
+	</div>
+<!-- end tambahan -->
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'ts'); ?>
+		<?php echo $form->error($model,'ts'); ?>
+		<?php echo $form->dropDownList($model,'ts',array('TS'=>'TS','TS-1'=>'TS-1','TS-2'=>'TS-2','TS-3'=>'TS-3','TS-4'=>'TS-4'),array('prompt' => 'Pilih TS')); ?>
+	</div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'judul'); ?>
+		<?php echo $form->error($model,'judul'); ?>
+		<?php $this->widget('ext.tinymce.ETinyMce', 
+			array(
+				'model'=>$model,
+				'attribute'=>'judul',
+                'editorTemplate'=>'full',
+                'htmlOptions'=>array('class'=>'input-xxlarge tinymce'),
+                'options' => array(
+	               'theme_advanced_buttons1' =>
+	               'undo,redo,|,bold,italic,underline,|,outdent, indent,|,formatselect,|',
+	                'theme_advanced_buttons2' => '',
+	                'theme_advanced_buttons3' => '',
+	                'theme_advanced_buttons4' => '',
+	                'theme_advanced_toolbar_location' => 'top',
+	                'theme_advanced_toolbar_align' => 'left',
+	                'theme_advanced_statusbar_location' => 'none',
+	                'theme_advanced_font_sizes' => "10=10pt,11=11pt,12=12pt,13=13pt,14=14pt,
+	                                                15=15pt,16=16pt,17=17pt,18=18pt,19=19pt,20=20pt",
+	            ),
+			)); 
+		?>
+		<?php //echo $form->textArea($model,'judul',array('size'=>50,'maxlength'=>150)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_dosen'); ?>
+		<?php echo $form->dropDownList($model,'id_dosen', CHtml::listData(
+		DataDosen::model()->findAll(), 'id_dosen', 'nama_dosen'),
+		array('prompt' => 'Pilih Dosen')
+		); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'publikasi'); ?>
+		<?php echo $form->textField($model,'publikasi',array('size'=>60,'maxlength'=>250)); ?>
+		<?php echo $form->error($model,'publikasi'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'th_publikasi'); ?>
+		<?php echo $form->textField($model,'th_publikasi',array('size'=>4,'maxlength'=>4)); ?>
+		<?php echo $form->error($model,'th_publikasi'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'tingkat'); ?>
+		<?php echo $form->error($model,'tingkat'); ?>
+		<?php echo $form->dropDownList($model,'tingkat',array('lokal'=>'Lokal','nasional'=>'Nasional','internasional'=>'Internasional'),array('prompt' => 'Pilih Tingkat')); ?>
+	</div>
+	
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'lembaga_akreditasi'); ?>
+		<?php echo $form->textField($model,'lembaga_akreditasi',array('size'=>60,'maxlength'=>150)); ?>
+		<?php echo $form->error($model,'lembaga_akreditasi'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'tgl_publikasi'); ?>
+		<?php echo $form->textField($model,'tgl_publikasi'); ?>
+		<?php echo $form->error($model,'tgl_publikasi'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Tambah' : 'Simpan',array('class'=>'btn btn-primary')); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->

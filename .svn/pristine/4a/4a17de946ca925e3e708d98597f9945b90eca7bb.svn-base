@@ -1,0 +1,974 @@
+2015/08/21 10:07:02 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php:11009)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php(12682): mPDF->CloseTag()
+#1 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\PengelolaanDanaController.php(752): mPDF->WriteHTML()
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionCetakPDFperolehan()
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/pengelolaandana/CetakPDFperolehan/?id_prodi=54&id_administrasi=2
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (11009)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (26676)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (19861)
+2015/08/21 10:07:09 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php:11009)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php(12682): mPDF->CloseTag()
+#1 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\PengelolaanDanaController.php(752): mPDF->WriteHTML()
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionCetakPDFperolehan()
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/pengelolaandana/CetakPDFperolehan/?id_prodi=54&id_administrasi=2
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (11009)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (26676)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (19861)
+2015/08/21 10:07:18 [error] [php] Invalid argument supplied for foreach() (C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php:11009)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php(12682): mPDF->CloseTag()
+#1 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\PengelolaanDanaController.php(752): mPDF->WriteHTML()
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): PengelolaanDanaController->actionCetakPDFperolehan()
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): PengelolaanDanaController->runAction()
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): PengelolaanDanaController->filterAccessControl()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): PengelolaanDanaController->runActionWithFilters()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): PengelolaanDanaController->run()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/pengelolaandana/CetakPDFperolehan/?id_prodi=54&id_administrasi=2
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (11009)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (26676)
+in C:\xampp\htdocs\qapasca\jaminan\protected\vendors\MPDF56\mpdf.php (19861)
+2015/08/23 17:55:30 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php(69): DanaPelayananController->widget()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): DanaPelayananController->renderInternal()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): DanaPelayananController->renderFile()
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): DanaPelayananController->renderPartial()
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php(154): DanaPelayananController->render()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): DanaPelayananController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): DanaPelayananController->runAction()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): DanaPelayananController->filterAccessControl()
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): DanaPelayananController->runActionWithFilters()
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): DanaPelayananController->run()
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/danaPelayanan/admin
+in C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php (69)
+in C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php (154)
+in C:\xampp\htdocs\qapasca\jaminan\index.php (13)
+2015/08/23 17:55:47 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php(69): DanaPelayananController->widget()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): DanaPelayananController->renderInternal()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): DanaPelayananController->renderFile()
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): DanaPelayananController->renderPartial()
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php(154): DanaPelayananController->render()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): DanaPelayananController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): DanaPelayananController->runAction()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): DanaPelayananController->filterAccessControl()
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): DanaPelayananController->runActionWithFilters()
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): DanaPelayananController->run()
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/danaPelayanan/admin
+in C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php (69)
+in C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php (154)
+in C:\xampp\htdocs\qapasca\jaminan\index.php (13)
+2015/08/23 17:55:57 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php(606) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridColumn.php(144): CDataColumn->renderDataCellContent()
+#1 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(589): CDataColumn->renderDataCell()
+#2 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(545): CGridView->renderTableRow()
+#3 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderTableBody()
+#4 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(160): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#7 C:\xampp\htdocs\qapasca\yii\framework\zii\widgets\CBaseListView.php(128): CGridView->renderContent()
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(173): CGridView->run()
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php(69): DanaPelayananController->widget()
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): DanaPelayananController->renderInternal()
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): DanaPelayananController->renderFile()
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): DanaPelayananController->renderPartial()
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php(154): DanaPelayananController->render()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): DanaPelayananController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): DanaPelayananController->runAction()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): DanaPelayananController->filterAccessControl()
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): DanaPelayananController->runActionWithFilters()
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): DanaPelayananController->run()
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CWebApplication->run()
+REQUEST_URI=/qapasca/jaminan/danaPelayanan/admin
+in C:\xampp\htdocs\qapasca\jaminan\protected\views\danaPelayanan\admin.php (69)
+in C:\xampp\htdocs\qapasca\jaminan\protected\controllers\DanaPelayananController.php (154)
+in C:\xampp\htdocs\qapasca\jaminan\index.php (13)
+2015/08/24 04:56:22 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/mekanismePenyusunanMk/admin
+---
+2015/08/24 04:56:25 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 04:56:30 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/mekanismePenyusunanMk/admin
+---
+2015/08/24 04:56:33 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 04:56:55 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/mekanismePenyusunanMk/admin
+---
+2015/08/24 04:56:57 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+---
+2015/08/24 06:02:36 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:02:39 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 06:02:51 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:02:55 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+---
+2015/08/24 06:03:15 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:03:18 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+---
+2015/08/24 06:03:24 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:03:28 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 06:05:47 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:05:50 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 06:06:58 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:07:00 [error] [exception.CException] exception 'CException' with message 'Property "ProsesBimbingan.ketersediaan_panduan" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('ketersediaan_pa...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('ketersediaan_pa...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1417): CHtml::resolveValue(Object(ProsesBimbingan), 'ketersediaan_pa...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(702): CHtml::activeTextArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#4 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\_search.php(31): CActiveForm->textArea(Object(ProsesBimbingan), 'ketersediaan_pa...', Array)
+#5 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\jaminan\protected\views\prosesBimbingan\admin.php(44): CController->renderPartial('_search', Array)
+#9 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#13 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\ProsesBimbinganController.php(158): CController->render('admin', Array)
+#14 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): ProsesBimbinganController->actionAdmin()
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ProsesBimbingan...')
+#25 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/qapasca/jaminan/ProsesBimbingan/admin
+---
+2015/08/24 06:07:03 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/admin
+---
+2015/08/24 06:07:06 [error] [exception.CException] exception 'CException' with message 'Property "BimbinganAkademik.pendidikan_tertinggi" is not defined.' in C:\xampp\htdocs\qapasca\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('pendidikan_tert...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('pendidikan_tert...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(BimbinganAkademik), 'pendidikan_tert...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#4 C:\xampp\htdocs\qapasca\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(BimbinganAkademik), 'pendidikan_tert...', Array)
+#5 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\_search.php(37): CActiveForm->textField(Object(BimbinganAkademik), 'pendidikan_tert...')
+#6 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\qapasca\jaminan\protected\views\bimbinganAkademik\admin.php(44): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\qapasca\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\qapasca\jaminan\protected\controllers\BimbinganAkademikController.php(155): CController->render('admin', Array)
+#15 C:\xampp\htdocs\qapasca\yii\framework\web\actions\CInlineAction.php(49): BimbinganAkademikController->actionAdmin()
+#16 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\qapasca\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BimbinganAkadem...')
+#26 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/qapasca/jaminan/BimbinganAkademik/admin
+---
+2015/08/24 06:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/
+---
+2015/08/24 06:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 06:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 06:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 06:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdata
+---
+2015/08/24 06:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 06:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdata
+---
+2015/08/24 06:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 06:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdata
+---
+2015/08/24 07:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 07:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdata
+---
+2015/08/24 07:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 07:03:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+HTTP_REFERER=http://localhost/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---
+2015/08/24 07:03:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getdatapersyartanpelaksanaan".' in C:\xampp\htdocs\qapasca\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\qapasca\yii\framework\web\CController.php(270): CController->missingAction('getdatapersyart...')
+#1 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(282): CController->run('getdatapersyart...')
+#2 C:\xampp\htdocs\qapasca\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('kurikulum/getda...')
+#3 C:\xampp\htdocs\qapasca\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\qapasca\jaminan\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/qapasca/jaminan/kurikulum/getdatapersyartanpelaksanaan
+---

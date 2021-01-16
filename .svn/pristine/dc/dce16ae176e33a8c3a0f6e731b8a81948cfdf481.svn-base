@@ -1,0 +1,69 @@
+<?php
+/* @var $this DanaOperasionalController */
+/* @var $model DanaOperasional */
+/* @var $form CActiveForm */
+?>
+
+<div class="wide form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'action'=>Yii::app()->createUrl($this->route),
+	'method'=>'get',
+)); ?>
+
+	<div class="row">
+		<?php echo $form->label($model,'id_dana_operasional'); ?>
+		<?php echo $form->textField($model,'id_dana_operasional'); ?>
+	</div>
+
+	
+
+	
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_mhs_TS'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS',array('size'=>30,'maxlength'=>30)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_dana_TS'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS',array('size'=>20,'maxlength'=>20)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_mhs_TS2'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS2',array('size'=>30,'maxlength'=>30)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_dana_TS2'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS2',array('size'=>20,'maxlength'=>20)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_mhs_TS3'); ?>
+		<?php echo $form->textField($model,'jumlah_mhs_TS3',array('size'=>30,'maxlength'=>30)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'jumlah_dana_TS3'); ?>
+		<?php echo $form->textField($model,'jumlah_dana_TS3',array('size'=>20,'maxlength'=>20)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'id_administrasi'); ?>
+		<?php echo $form->textField($model,'id_administrasi'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'id_prodi'); ?>
+		<?php echo $form->textField($model,'id_prodi'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton('Search'); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- search-form -->

@@ -1,0 +1,249 @@
+<style type="text/css">
+	table{
+		border-collapse: collapse;
+		width: 100%;
+	}
+	table tr th{
+		border: 0.01pt solid black;
+		border-top: 0.01pt solid black ;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px;
+	}
+	table tr td{
+		border: 0.01pt solid black;
+		padding: 10px;
+	}
+	.judul{
+		text-align: left;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.sub_judul{
+		text-align: left;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	p{
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.keterangan{
+		font-size: 11px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	</style>
+	<p>5.1.2 Struktur Kurikulum</p>
+	<p>5.1.2.1 Uraikan secara ringkas struktur kurikulum perkuliahan</p>
+	<?php
+	if(empty($data['perkuliahan'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['perkuliahan']?>
+</div>
+<?php } ?>
+
+<p>5.1.2.2 Uraikan secara ringkas struktur kurikulum tugas khusus</p>
+	<?php
+	if(empty($data['tugas_khusus'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['tugas_khusus']?>
+</div>
+<?php } ?>
+
+<p>5.1.2.3 Uraikan secara ringkas struktur kurikulum penelitian tesis</p>
+	<?php
+	if(empty($data['penelitian'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['penelitian']?>
+</div>
+<?php } ?>
+
+<p>5.1.2.4 Uraikan secara ringkas struktur kurikulum hasil penelitian tesis</p>
+	<?php
+	if(empty($data['hasil_penelitian'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?=$data['hasil_penelitian']?>
+</div>
+<?php } ?>
+
+	<p>5.1.2.5 Tuliskan struktur kurikulum berdasarkan urutan mata kuliah (MK) semester demi semester, dengan mengikuti format tabel berikut:</p>
+		<table class="table table-bordered min">
+			<thead>
+				<tr>
+					<th rowspan="2">Smt</th>
+					<th rowspan="2">Kode MK</th>
+					<th rowspan="2">Nama MK*</th>
+					<th rowspan="2">Bobot Sks</th>
+					<th rowspan="1" colspan="2">Sks MK dalam kurikulum</th>
+					<th rowspan="2">Bobot Tugas***</th>
+					<th rowspan="1" colspan="3">Kelengkapan****</th>
+					<th rowspan="2">Unit Jur/ Fak Penyelenggara</th>
+				</tr>
+				<tr>
+					<th colspan="1">Inti**</th>
+					<th colspan="1">Institusional</th>
+					<th colspan="1">Deskripsi</th>
+					<th colspan="1">Silabus</th>
+					<th colspan="1">SAP</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?
+				foreach ($mk_kurikulum as $key => $value) {
+					?>
+					<tr>
+						<td><?=$value['semester']?></td>
+						<td><?=$value['kode_mk']?></td>
+						<td><?=$value['nama_mk']?></td>
+						<td style="text-align:center;"><?=$value['bobot_sks']?></td>
+						<td style="text-align:center;"><?=($value['jenis_sks'] == 'inti')? $value['bobot_jenis_sks']: ($value['bobot_sks'] - $value['bobot_jenis_sks'] )?></td>
+						<td style="text-align:center;"><?=($value['jenis_sks'] == 'institusional')? $value['bobot_jenis_sks']: ($value['bobot_sks'] - $value['bobot_jenis_sks'] )?></td>
+						<td style="text-align:center;"><?=$value['bobot_tgs']?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+						<td style="text-align:center;"><?=($value['kelengkapan_deskripsi'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+						<td style="text-align:center;"><?=($value['kelengkapan_silabus'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+						<td style="text-align:center;"><?=($value['kelengkapan_SAP'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+						<td><?=$value['penyelenggara']?></td>
+					</tr>
+					<?
+				}
+				?>
+				<?php
+					foreach ($mk_kurikulum as $key => $value) {
+						?>
+						<tr>
+							<td><?=$value['semester']?></td>
+							<td><?=$value['kode_mk']?></td>
+							<td><?=$value['nama_mk']?></td>
+							<td style="text-align:center;"><?=$value['bobot_sks']?></td>
+							<td style="text-align:center;"><?=($value['jenis_sks'] == 'inti')?$value['bobot_jenis_sks']: ($value['bobot_sks'] - $value['bobot_jenis_sks'] )?></td>
+							<td style="text-align:center;"><?=($value['jenis_sks'] == 'institusional')?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+							<td style="text-align:center;"><?=$value['bobot_tgs']?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+							<td style="text-align:center;"><?=($value['kelengkapan_deskripsi'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+							<td style="text-align:center;"><?=($value['kelengkapan_silabus'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+							<td style="text-align:center;"><?=($value['kelengkapan_SAP'])?'<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">':'-'?></td>
+							<td><?=$value['penyelenggara']?></td>
+						</tr>
+						<?
+					}
+					?>
+				</tbody>
+				<tfoot>
+				</tfoot>
+			</table>
+		<p class="keterangan">
+		* Tuliskan mata kuliah pilihan sebagai mata kuliah pilihan I, mata kuliah pilihan II, dst. (nama-nama mata kuliah pilihan yang dilaksanakan dicantumkan
+		dalam tabel 5.1.3.)
+		</p>
+		<p class="keterangan">
+		** Menurut rujukan peer group / SK Mendiknas 045/2002 (ps. 3 ayat 2e)
+		</p>
+		<p class="keterangan">
+		*** Beri tanda √ pada mata kuliah yang dalam penentuan nilai akhirnya memberikan bobot pada tugas-tugas (praktikum/praktek, PR atau makalah) ≥ 20%.
+		</p>
+		<p class="keterangan">
+		****Beri tanda √ pada mata kuliah yang dilengkapi dengan deskripsi, silabus, dan atau SAP. Sediakan dokumen pada saat asesmen lapangan.
+		</p>
+		<br>
+		<p>5.1.2.6 Tuliskan mata Kuliah pilihan yang dilaksanakan dalam tiga tahun terakhir, pada tabel berikut :</p>
+		<?php
+		if(empty($mk_kurikulum)){
+			?>
+				<div class="alert alert-error">
+				  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+				</div>
+			<?
+		}else{
+		?>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>Semester</th>
+					<th>Kode MK</th>
+					<th>Nama MK (Pilihan)</th>
+					<th>Bobot sks</th>
+					<th>Bobot Tugas*</th>
+					<th>Unit/ Jur/ Fak Pengelola</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?
+				$total_sks = 0;
+				foreach ($mk_kurikulum as $key => $value) {
+					if($value['jenis_sks'] == 'institusional'){
+						$total_sks += $value['bobot_sks'];
+						?>
+						<tr>
+							<td><?=$value['semester']?></td>
+							<td><?=$value['kode_mk']?></td>
+							<td><?=$value['nama_mk']?></td>
+							<td style="text-align:center;"><?=$value['bobot_sks']?></td>
+							<td style="text-align:center;"><?=($value['bobot_tgs'] == 'ya') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">' : '-' ?></td>
+							<td><?=$value['penyelenggara']?></td>
+						</tr>
+						<?
+						$total_sks = 0;
+						foreach ($mk_kurikulum as $key => $value) {
+							if($value['jenis_sks'] == 'institusional'){
+							$total_sks += $value['bobot_sks'];
+							?>
+							<tr>
+								<td><?=$value['semester']?></td>
+								<td><?=$value['kode_mk']?></td>
+								<td><?=$value['nama_mk']?></td>
+								<td style="text-align:center;"><?=$value['bobot_sks']?></td>
+								<td style="text-align:center;"><?=($value['bobot_tgs'] == 'ya') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang2.jpg">' : '-' ?></td>
+								<td><?=$value['penyelenggara']?></td>
+							</tr>
+							<?
+							}
+						}
+					}
+				}
+				?>
+				<tr>
+					<td colspan="3">Total sks</td>
+					<td style="text-align:center;"><?=$total_sks?></td>
+					<td style="background:#333;" colspan="2"></td>
+				</tr>
+			</tbody>
+			<tfoot>
+
+			</tfoot>
+		</table>
+		<p class="keterangan">* beri tanda √ pada mata kuliah yang dalam penentuan nilai akhirnya memberikan bobot pada
+		tugas-tugas (praktikum/praktek, PR atau makalah) ≥ 20%.</p>
+		<br>
+		</tfoot>
+		</table>
+
+	<?php } ?>
+	

@@ -1,0 +1,19 @@
+
+<div class="row-fluid">
+	<div class="span12">
+		<div class="tabbable"> <!-- Only required for left/right tabs -->
+		  	<ul class="nav nav-tabs">
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/kurikulum/admin" class="a_tab" data-toggle="tab">Kompetensi</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/MkKurikulum/admin" class="a_tab" data-toggle="tab">Struktur Kurikulum</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/PeninjauanKurikulum/admin" class="a_tab" data-toggle="tab">Peninjauan</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/PersyaratanPelaksanaan/admin" class="a_tab" data-toggle="tab">Persyaratan & Pelaksanaan Tesis</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/MekanismePenyusunanMk/admin" class="a_tab" data-toggle="tab">Pembelajaran</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/BimbinganAkademik/admin" class="a_tab" data-toggle="tab">Pembimbingan Tesis</a></li>
+		    	<li class="list_tab active"><a href="<?=Yii::app()->getBaseUrl(true)?>/PelaksanaanbimbinganTa/admin" class="a_tab" data-toggle="tab">Pelaksanaan Tesis</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/Monitoring2/admin" class="a_tab" data-toggle="tab">Sistem Monitoring dan Evaluasi</a></li>
+		    	<li class="list_tab "><a href="<?=Yii::app()->getBaseUrl(true)?>/SuasanaAkademik/admin" class="a_tab" data-toggle="tab">Peningkatan</a></li>
+
+		  	</ul>
+		</div>
+	</div>
+</div>

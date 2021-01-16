@@ -1,0 +1,258 @@
+<?php
+
+class KerjasamaDlm_psController extends Controller
+{
+	/**
+	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
+	 * using two-column layout. See 'protected/views/layouts/column2.php'.
+	 */
+	public $layout='//layouts/column2';
+
+	/**
+	 * @return array action filters
+	 */
+	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
+		);
+	}
+
+	/**
+	 * Specifies the access control rules.
+	 * This method is used by the 'accessControl' filter.
+	 * @return array access control rules
+	 */
+	public function accessRules()
+	{
+		return array(
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('index','view'),
+				'users'=>array('*'),
+			),
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions'=>array('create','update'),
+				'users'=>array('@'),
+			),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('admin','delete'),
+				'users'=>array('admin'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+	}
+
+	/**
+	 * Displays a particular model.
+	 * @param integer $id the ID of the model to be displayed
+	 */
+	public function actionView($id)
+	{
+		$this->render('view',array(
+			'model'=>$this->loadModel($id),'manajemen'=>'manajemen',
+		));
+	}
+
+	/**
+	 * Creates a new model.
+	 * If creation is successful, the browser will be redirected to the 'view' page.
+	 */
+	public function actionCreate()
+	{
+		$model=new KerjasamaDlm_ps;
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['KerjasamaDlm_ps']))
+		{
+			$model->attributes=$_POST['KerjasamaDlm_ps'];
+			$model->lampiran=CUploadedFile::getInstance($model,'lampiran');
+
+			if($model->save()){
+				$model->lampiran->saveAs(Yii::app()->basePath.'/../file/Lampiran/'.$model->lampiran);
+				$this->redirect(array('view','id'=>$model->id_kerjasama_dlm));
+			}
+		}
+
+		$this->render('create',array(
+			'model'=>$model,'manajemen'=>'manajemen',
+		));
+	}
+
+
+	/**
+	 * Updates a particular model.
+	 * If update is successful, the browser will be redirected to the 'view' page.
+	 * @param integer $id the ID of the model to be updated
+	 */
+	public function actionUpdate($id)
+	{
+		$model=$this->loadModel($id);
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+		if(isset($_POST['KerjasamaDlm_ps']))
+		{	
+
+
+			$model->attributes=$_POST['KerjasamaDlm_ps'];
+
+			$model->lampiran=CUploadedFile::getInstance($model,'lampiran');
+
+			if($model->save()){
+				$model->lampiran->saveAs(Yii::app()->basePath.'/../file/Lampiran/'.$model->lampiran);
+				$this->redirect(array('view','id'=>$model->id_kerjasama_dlm));
+			}
+		}
+
+		$this->render('update',array(
+			'model'=>$model,'manajemen'=>'manajemen',
+		));
+	}
+
+	/**
+	 * Deletes a particular model.
+	 * If deletion is successful, the browser will be redirected to the 'admin' page.
+	 * @param integer $id the ID of the model to be deleted
+	 */
+	public function actionDelete($id)
+	{
+		$this->loadModel($id)->delete();
+
+		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+		if(!isset($_GET['ajax']))
+			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+	}
+
+
+	/**
+	 * Lists all models.
+	 */
+	public function actionIndex()
+
+	{
+		$this->layout='//layouts/column2';
+
+		$criteria=new CDbCriteria;
+		$criteria->with = array( 'relasi_administrasi' );
+		if(Yii::app()->user->group_id != 1){
+			$criteria->with = array( 'relasi_prodi' );
+			$criteria->addColumnCondition(array('relasi_prodi.id_prodi'=>Yii::app()->user->group_id),'AND','AND');
+		}
+
+		$dataProvider=new CActiveDataProvider('KerjasamaDlm_ps',
+			array(
+				'criteria'=>$criteria,
+				'pagination'=>array(
+			        'pageSize'=>10,
+			    ),
+			)
+		);
+		// end tambahan
+		$this->render('index',array(
+			'dataProvider'=>$dataProvider,'manajemen'=>'manajemen',
+		));
+	}
+
+	/**
+	 * Manages all models.
+	 */
+	public function actionAdmin()
+	{	
+		$this->layout='//layouts/column2';
+		
+		$model=new KerjasamaDlm_ps('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['KerjasamaDlm_ps']))
+			$model->attributes=$_GET['KerjasamaDlm_ps'];
+
+		$this->render('admin',array(
+			'model'=>$model,'manajemen'=>'manajemen',
+		));
+	}
+
+	/**
+	 * Returns the data model based on the primary key given in the GET variable.
+	 * If the data model is not found, an HTTP exception will be raised.
+	 * @param integer $id the ID of the model to be loaded
+	 * @return KerjasamaDlm_ps the loaded model
+	 * @throws CHttpException
+	 */
+	public function loadModel($id)
+	{
+		$model=KerjasamaDlm_ps::model()->findByPk($id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		return $model;
+	}
+
+	/**
+	 * Performs the AJAX validation.
+	 * @param KerjasamaDlm_ps $model the model to be validated
+	 */
+	protected function performAjaxValidation($model)
+	{
+		if(isset($_POST['ajax']) && $_POST['ajax']==='kerjasama-dlm-ps-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+	}
+
+
+	public function actionSentDataKerjasamadlm(){
+		if(isset($_POST['id_prodi'])){
+			$id_prodi = $_POST['id_prodi'];
+		}else{
+			$id_prodi = '';
+		}
+		if(isset($_POST['id_administrasi'])){
+			$id_administrasi = $_POST['id_administrasi'];
+		}else{
+			$id_administrasi = '';
+		}
+
+
+		if($id_prodi == 1){
+			$data['id_administrasi']=$id_administrasi;
+			$data['id_prodi']=$id_prodi;		
+			$data['data'] = array();
+			$data['data'] = Yii::app()->db->createCommand()
+		    ->select('k.id_prodi, k.nama_instansi_dlm,k.jenis_kegiatan_dlm,k.th_mulai_dlm,k.th_akhir_dlm,k.manfaat_dlm,k.lampiran,k.sumber_data,p.jurusan')
+		    ->from('kerjasama_dlm k')
+		    ->join('prodi p', 'k.id_prodi=p.id_prodi')
+		    ->join('administrasi a','a.id_administrasi=k.id_administrasi')
+		    // ->andWhere('k.jenis_kerjasama=:jk', array(':jk'=>'dlm negeri'))
+			->andWhere('p.id_prodi=:id', array(':id'=>$id_prodi))
+			->andWhere('a.id_administrasi=:id_a', array(':id_a'=>$id_administrasi))
+			->queryAll();
+		} else {
+			$data['id_administrasi']=$id_administrasi;
+			$data['id_prodi']=$id_prodi;
+			$data['data'] = array();
+			$data['data'] = Yii::app()->db->createCommand()
+		    ->select('k.id_prodi, k.nama_instansi_dlm,k.jenis_kegiatan_dlm,k.th_mulai_dlm,k.th_akhir_dlm,k.manfaat_dlm,k.lampiran,k.sumber_data,p.jurusan')
+		    ->from('kerjasama_dlm k')
+		    ->join('prodi p', 'k.id_prodi=p.id_prodi')
+		    ->join('administrasi a','a.id_administrasi=k.id_administrasi')
+		    // ->andWhere('k.jenis_kerjasama=:jk', array(':jk'=>'dlm negeri'))
+			->andWhere('p.id_prodi=:id', array(':id'=>$id_prodi))
+			->andWhere('a.id_administrasi=:id_a', array(':id_a'=>$id_administrasi))
+			->queryAll();
+		}
+
+		
+		$myHtml = $this->renderPartial('v_data_kerjasamadalam',$data,true); 
+		echo $myHtml;
+		Yii::app()->end(); 
+		return;	
+					
+			}
+
+
+}

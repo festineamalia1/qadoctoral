@@ -1,0 +1,35 @@
+<?php
+/* @var $this TopikPenelitianController */
+/* @var $model TopikPenelitian */
+
+$this->breadcrumbs=array(
+	'Manajemen Data'=>array('site/manajemen'),
+	'Judul dan Penelitian Dosen Melibatkan Mahasiswa'=>array('index'),
+	$model->id_topik=>array('view','id'=>$model->id_topik),
+	'Ubah Data',
+);
+
+$this->menu=array(
+	array('label'=>'Tampilkan Data', 'url'=>array('index')),
+	array('label'=>'Tambah Data', 'url'=>array('create')),
+	array('label'=>'Detail Data', 'url'=>array('view', 'id'=>$model->id_topik)),
+	array('label'=>'Manajemen Data', 'url'=>array('admin')),
+);
+?>
+
+<h1>Ubah Data Judul dan Penelitian Dosen Melibatkan Mahasiswa<?php echo $model->id_topik; ?></h1>
+
+<?
+	$this->renderPartial('v_manajemen');
+?>
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+<script type="text/javascript">
+	$(function(){
+		var manajemen = "<?=$manajemen?>";
+		if(manajemen == 'manajemen'){
+			$('.site-sidebar').parent().addClass('hide');
+			$('.content-after-sidebar').removeClass('span9');
+		}
+	});
+</script>

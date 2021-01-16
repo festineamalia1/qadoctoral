@@ -1,0 +1,24 @@
+<?php
+/* @var $this HimpunanAlumniS2Controller */
+/* @var $model HimpunanAlumniS2 */
+
+$this->breadcrumbs=array(
+	'Manajemen Data'=>array('site/manajemen'),
+	'Standar 3 (Himpunan Alumni)'=>array('index'),
+	$model->id_himpunans2=>array('view','id'=>$model->id_himpunans2),
+	'Ubah Data',
+);
+
+$this->menu=array(
+	array('label'=>'List HimpunanAlumniS2', 'url'=>array('index')),
+	array('label'=>'Create HimpunanAlumniS2', 'url'=>array('create')),
+	array('label'=>'View HimpunanAlumniS2', 'url'=>array('view', 'id'=>$model->id_himpunans2)),
+	array('label'=>'Manage HimpunanAlumniS2', 'url'=>array('admin')),
+);
+?>
+
+<h1>Ubah Data Himpunan Alumni<?php echo $model->id_himpunans2; ?></h1>
+<?
+	$this->renderPartial('v_manajemen');
+?>
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

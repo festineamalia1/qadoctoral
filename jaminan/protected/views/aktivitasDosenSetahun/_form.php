@@ -1,0 +1,145 @@
+<?php
+/* @var $this AktivitasDosenSetahunController */
+/* @var $model AktivitasDosenSetahun */
+/* @var $form CActiveForm */
+?>
+
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'aktivitas-dosen-setahun-form',
+	'enableAjaxValidation'=>false,
+	// tambahan
+	'htmlOptions'=>array('enctype'=>'multipart/form-data'),
+	// end tambahan
+)); ?>
+
+	<p class="note alert">Kolom bertanda <span class="required">*</span> harus diisi.</p>
+
+	<?php echo $form->errorSummary($model,$header='<b>Kesalahan Pengisian Data : </b>',$footer='',$htmlOptions=array('class'=>'alert alert-error')); ?>
+
+<!-- tambahan -->
+	<?php echo "<b>Tuliskan data aktivitas mengajar dosen tetap dan tidak tetap yang bidang keahliannya sesuai dengan Program Studi, 
+	dalam satu tahun akademik terakhir di Program Studi ini.</b>";?><br><br>
+		<?
+	if(Yii::app()->user->group_id == 1){
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAll(), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}else{
+		?>
+			<div class="row">
+				<?php echo $form->labelEx($model,'id_prodi'); ?>
+				<?php echo $form->dropDownList($model, 'id_prodi', CHtml::listData(
+				Prodi::model()->findAllByAttributes(array('id_prodi'=>Yii::app()->user->group_id)), 'id_prodi', 'nama_prodi'),
+				array('prompt' => 'Pilih Prodi')
+				); ?>
+			</div>
+		<?
+	}
+	?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'id_administrasi'); ?>
+		<?php echo $form->dropDownList($model, 'id_administrasi', CHtml::listData(
+		Administrasi::model()->findAll(), 'id_administrasi', 'th_akademik'),
+		array('prompt' => 'Pilih Administrasi')
+		); ?>
+	</div>
+<!-- end tambahan -->
+
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'nama_dosen'); ?>
+		<?php //echo $form->textField($model,'nama_dosen',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'nama_dosen'); ?>
+		<?php echo $form->dropDownList($model, 'nama_dosen', CHtml::listData(
+		DataDosen::model()->findAll(), 'nama_dosen', 'nama_dosen'),
+		array('prompt' => 'Pilih Dosen')
+		); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'bidang_keahlian'); ?>
+		<?php echo $form->error($model,'bidang_keahlian'); ?>
+		<?php echo $form->textField($model,'bidang_keahlian',array('size'=>30,'maxlength'=>30)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'kode_mk'); ?>
+		<?php //echo $form->textField($model,'nama_dosen_tetap',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'kode_mk'); ?>
+		<?php echo $form->dropDownList($model, 'kode_mk', CHtml::listData(
+		MkKurikulum::model()->findAll(), 'kode_mk', 'kode_mk'),
+		array('prompt' => 'Pilih Dosen')
+		); ?>
+		
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'nama_mk'); ?>
+		<?php //echo $form->textField($model,'nama_dosen_tetap',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->error($model,'nama_mk'); ?>
+		<?php echo $form->dropDownList($model, 'nama_mk', CHtml::listData(
+		MkKurikulum::model()->findAll(), 'nama_mk', 'nama_mk'),
+		array('prompt' => 'Pilih Dosen')
+		); ?>
+		
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jum_kelas'); ?>
+		<?php echo $form->error($model,'jum_kelas'); ?>
+		<?php echo $form->textField($model,'jum_kelas'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jum_rencana_pertemuan'); ?>
+		<?php echo $form->error($model,'jum_rencana_pertemuan'); ?>
+		<?php echo $form->textField($model,'jum_rencana_pertemuan'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'jum_pertemuan_terlaksana'); ?>
+		<?php echo $form->error($model,'jum_pertemuan_terlaksana'); ?>
+		<?php echo $form->textField($model,'jum_pertemuan_terlaksana'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'status_dosen'); ?>
+		<?php echo $form->error($model,'status_dosen'); ?>
+		<?php echo $form->dropDownList($model,'status_dosen',array('tetap'=>'Tetap','tidak tetap'=>'Tidak Tetap'),array('prompt' => 'Pilih Status Dosen')); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'status_bidang'); ?>
+		<?php echo $form->error($model,'status_bidang'); ?>
+		<?php echo $form->dropDownList($model,'status_bidang',array('sesuai PS'=>'Sesuai dengan PS','tidak sesuai PS'=>'Tidak Sesuai dengan PS'),array('prompt' => 'Pilih Status Bidang')); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'sumber_data'); ?>
+		<?php echo $form->error($model,'sumber_data'); ?>
+		<?php echo $form->textField($model,'sumber_data',array('size'=>60,'maxlength'=>100)); ?>
+	</div>
+
+<!-- tambahan -->
+	<!-- <div class="row">
+		<?php //echo $form->labelEx($model,'lampiran'); ?>
+		<?php // echo $form->textField($model,'lampiran',array('size'=>60,'maxlength'=>100)); ?>
+		<?php //echo $form->fileField($model,'lampiran',array('size'=>50,'maxlength'=>50)); ?>
+		<?php //echo $form->error($model,'lampiran'); ?>
+	</div> -->
+<!-- end tambahan -->
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Tambah' : 'Simpan',array('class'=>'btn btn-primary')); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->

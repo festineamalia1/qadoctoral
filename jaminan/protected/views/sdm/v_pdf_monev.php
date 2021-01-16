@@ -1,0 +1,129 @@
+<style type="text/css">
+	table{
+		/*border: thin solid black;*/
+		border-collapse: collapse;
+		width: 100%;
+	}
+	table tr th{
+		border: thin; solid black;
+		border-top: none;
+		font-weight: bold;
+	}
+	table tr td{
+		border: thin solid black;
+		padding: 10px;
+	}
+	.judul{
+		text-align: center;
+		font-size: 16px;
+	}
+	.sub_judul{
+		text-align: left;
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 50px;
+	}
+</style>
+
+<p class="judul" style="font-weight:bold;">
+	STANDAR 4. SUMBER DAYA MANUSIA
+</p>
+
+
+	<p>4.2 	Monitoring dan Evaluasi</p>
+		<p style="padding-left:25px;">
+		Jelaskan sistem monitoring dan evaluasi, serta rekam jejak kinerja akademik dosen dan kinerja tenaga kependidikan.
+	
+	<?php
+	if(empty($data)){
+		?>
+			<div class="alert alert-error">
+			  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+			</div>
+		<?
+	}else{
+	?>	
+
+	<?php
+	if(empty($data)){
+		?>
+
+			<div class="alert alert-error">
+			  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+			</div>
+		<?
+	}else{
+	?>
+	<p>
+		<b>Tenaga Pendidik (Dosen) dan Tenaga Kependidikan</b><br><br>
+	</p>
+	</div>
+	<?php } ?>
+
+	<p>Monitoring</p>
+	<?php
+	if(empty($data['monitoring'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+	}else{
+	?>
+	<div style="border:1px solid black;padding:5px;margin-bottom:20px;text-align:justify;">	
+		<?=$data['monitoring']?><br>
+	</div>
+	<?php } ?>
+
+	<p>
+		Evaluasi
+	</p>
+	<?php
+	if(empty($data['evaluasi'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+	}else{
+	?>
+	<div style="border:1px solid black;padding:5px;margin-bottom:20px;text-align:justify;">	
+		<?=$data['evaluasi']?><br>
+	</div>
+	<?php } ?>
+
+		<p>
+		Rekam Jejak
+	</p>
+	<?php
+	if(empty($data['rekam_jejak'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+	}else{
+	?>
+	<div style="border:1px solid black;padding:5px;margin-bottom:20px;text-align:justify;">	
+			<?=$data['rekam_jejak']?><br>
+	</div>
+	<?php } ?>
+
+
+		<p>
+		Keterangan Tambahan
+	</p>
+	<?php
+	if(empty($data['ket_tambahan'])){
+	?>
+		<div class="alert alert-error">
+		  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+		</div>
+	<?
+	}else{
+	?>
+	<div style="border:1px solid black;padding:5px;margin-bottom:20px;text-align:justify;">	
+			
+			<?=$data['ket_tambahan']?><br>
+	</div>
+	<?php } } ?>

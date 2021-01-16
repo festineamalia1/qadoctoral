@@ -1,0 +1,53 @@
+CREATE TABLE `daftar_isi` (
+`id_prodi`  int NOT NULL ,
+`id_administrasi`  int NOT NULL ,
+`daftar_isi`  varchar(255) NOT NULL 
+)
+;
+
+CREATE TABLE `pengisi_borang` (
+`id`  int NOT NULL AUTO_INCREMENT ,
+`id_prodi`  int NOT NULL ,
+`id_administrasi`  int NOT NULL ,
+`nama`  varchar(40) NOT NULL ,
+`nidn`  varchar(50) NOT NULL ,
+`jabatan`  varchar(50) NOT NULL ,
+`tanggal_pengisian`  date NOT NULL ,
+PRIMARY KEY (`id`)
+)
+;
+
+ALTER TABLE `lampiran`
+MODIFY COLUMN `nama_file`  varchar(225) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL AFTER `id_administrasi`;
+
+
+CREATE TABLE `daftar_isi` (
+  `id_prodi` int(11) NOT NULL,
+  `id_administrasi` int(11) NOT NULL,
+  `daftar_isi` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- ----------------------------
+-- Records of daftar_isi
+-- ----------------------------
+INSERT INTO `daftar_isi` VALUES ('54', '1', '1:2;2:2;3:4;4:5;5:6;6:10;7:4;8:2');
+INSERT INTO `daftar_isi` VALUES ('1', '1', '1:2;2:2;3:4;4:5;5:6;6:10;7:4;8:2');
+INSERT INTO `daftar_isi` VALUES ('1', '2', '1:2;2:2;3:4;4:5;5:6;6:10;7:4;8:2');
+INSERT INTO `daftar_isi` VALUES ('54', '2', '1:2;2:2;3:4;4:5;5:6;6:10;7:4;8:2');
+
+
+--zatut
+ALTER TABLE `kegiatan_tenaga_ahli_luarpt`
+MODIFY COLUMN `waktu`  varchar(0) NOT NULL AFTER `judul_kegiatan`;
+
+ALTER TABLE `kegiatan_tenaga_ahli_luarpt`
+MODIFY COLUMN `waktu`  varchar(15) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL AFTER `judul_kegiatan`;
+
+ALTER TABLE  `mk_kurikulum` ADD  `bobot_jenis_sks` INT( 11 ) NOT NULL AFTER  `jenis_sks`
+
+
+-- sigit hanafi standar 5.5.2
+ALTER TABLE `pelaksanaan_bimbingan_ta`
+ADD COLUMN `waktu_penyelesaian`  varchar(3) NULL AFTER `sosialisasi_pelaksanaan`,
+ADD COLUMN `waktu_direncanakan`  varchar(3) NULL AFTER `waktu_penyelesaian`;
+

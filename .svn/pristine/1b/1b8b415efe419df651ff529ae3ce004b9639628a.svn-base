@@ -1,0 +1,396 @@
+<style type="text/css">
+	table{
+		/*border: thin solid black;*/
+		border-collapse: collapse;
+		width: 100%;
+	}
+	table tr th{
+		border: thin solid black;
+		border-top: thin solid black ;
+		font-weight: bold;
+		text-align: center;
+		padding: 5px;
+	}
+	table tr td{
+		border: thin solid black;
+		padding: 10px;
+	}
+	.judul{
+		text-align: center;
+		font-size: 16px;
+	}
+	.sub_judul{
+		text-align: left;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	p{
+		text-align:justify;
+		text-justify:inter-world;
+	}
+	.keterangan{
+		font-size: 11px;
+		text-align:justify;
+		text-justify:inter-world;
+	}
+</style>
+
+<p>6.5 Sistem Informasi</p>
+<p>
+	6.5.1 Jelaskan sistem informasi manajemen dan fasilitas ICT (<i>Information and Communication Technology</i>) yang digunakan Fakultas/Sekolah Tinggi 
+	untuk proses penyelenggaraan akademik dan administrasi (misalkan SIAKAD, SIMKEU, SIMAWA, SIMFA, SIMPEG dan sejenisnya), termasuk <i>distance-learning</i>. 
+	Jelaskan pemanfaatannya dalam proses pengambilan keputusan dalam pengembangan institusi.  
+</p>
+<?php 
+if(empty($sistem)){
+	?>
+	<div class="alert alert-error">
+	  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+	</div>
+	<?
+}else{
+?>
+<div style="border:1px solid black;padding:5px;">
+	<?php
+		foreach ($sistem as $key => $value) {
+			// 'si','email','surat','fax','sms','sosmed','papan','lainnya'
+				if($value['media'] == 'si'){
+					echo "<h5>Media : Sistem Informasi</h5>";
+				}else if($value['media'] == 'email'){
+					echo "<h5>Media : Email</h5>";
+				}else if($value['media'] == 'surat'){
+					echo "<h5>Media : Surat</h5>";
+				}else if($value['media'] == 'fax'){
+					echo "<h5>Media : Fax</h5>";
+				}else if($value['media'] == 'sms'){
+					echo "<h5>Media : SMS</h5>";
+				}else if($value['media'] == 'sosmed'){
+					echo "<h5>Media : Sosial Media</h5>";
+				}else if($value['media'] == 'papan'){
+					echo "<h5>Media : Papan Informasi</h5>";
+				}else if($value['media'] == 'lainnya'){
+					echo "<h5>Media : Lainnya</h5>";
+				}
+			echo "<h5>Kegunaan : </h5>";
+			echo "<p>".$value['kegunaan']."</p>";
+		}
+		?>
+</div>
+<br>
+<?php } ?>
+<p>
+	6.5.2 Beri tanda √ pada kolom yang sesuai (hanya satu kolom per baris) dengan aksesibilitas tiap jenis data, dengan mengikuti format tabel berikut.
+</p>
+<?
+if( (empty($mhs)) && (empty($krs)) && (empty($jadwal_mk)) && (empty($nilai_mk)) && (empty($transkrip_akademik)) && (empty($lulusan)) && (empty($dosen)) && (empty($pegawai)) && (empty($keuangan)) && (empty($inventaris)) && (empty($perpustakaan))){
+	?>
+	<div class="alert alert-error">
+	  Maaf Data yang Anda inginkan masih dalam keadaan kosong. 
+	</div>
+	<?
+}else{
+?>
+<table class="table table-bordered kusus">
+		<thead>
+			<tr>
+				<th rowspan="2" style="width:20px;">No.</th>
+				<th rowspan="2">Jenis Data</th>
+				<th rowspan="1" colspan="4">Sistem Pengelolaan Data</th>
+			</tr>
+			<tr>
+				<th colspan="1">Secara Manual</th>
+				<th colspan="1">Dengan Komputer Tanpa Jaringan</th>
+				<th colspan="1">Dengan Komputer Jaringan Lokan (LAN)</th>
+				<th colspan="1">Dengan Komputer Jaringan Luas (WAN)</th>
+			</tr>
+			<tr>
+				<th colspan="1">(1)</th>
+				<th colspan="1">(2)</th>
+				<th colspan="1">(3)</th>
+				<th colspan="1">(4)</th>
+				<th colspan="1">(5)</th>
+				<th colspan="1">(6)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?
+			if(isset($mhs)){
+				?>
+				<tr>
+					<td style="text-align:center;">1</td>
+					<td>Mahasiswa</td>
+					<td style="text-align:center;"><?=(($mhs['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($mhs['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($mhs['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($mhs['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">1</td>
+					<td>Mahasiswa</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($krs)){
+				?>
+				<tr>
+					<td style="text-align:center;">2</td>
+					<td>Kartu Rencana Studi (KRS)</td>
+					<td style="text-align:center;"><?=(($krs['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($krs['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($krs['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($krs['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">2</td>
+					<td>Kartu Rencana Studi (KRS)</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($jadwal_mk)){
+				?>
+				<tr>
+					<td style="text-align:center;">3</td>
+					<td>Jadwal mata kuliah</td>
+					<td style="text-align:center;"><?=(($jadwal_mk['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($jadwal_mk['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($jadwal_mk['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($jadwal_mk['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">3</td>
+					<td>Jadwal mata kuliah</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($nilai_mk)){
+				?>
+				<tr>
+					<td style="text-align:center;">3</td>
+					<td>Nilai mata kuliah</td>
+					<td style="text-align:center;"><?=(($nilai_mk['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($nilai_mk['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($nilai_mk['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($nilai_mk['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">3</td>
+					<td>Nilai mata kuliah</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($transkrip_akademik)){
+				?>
+				<tr>
+					<td style="text-align:center;">5</td>
+					<td>Transkrip akademik</td>
+					<td style="text-align:center;"><?=(($transkrip_akademik['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($transkrip_akademik['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($transkrip_akademik['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($transkrip_akademik['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">5</td>
+					<td>Transkrip akademik</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($lulusan)){
+				?>
+				<tr>
+					<td style="text-align:center;">6</td>
+					<td>Lulusan</td>
+					<td style="text-align:center;"><?=(($lulusan['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($lulusan['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($lulusan['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($lulusan['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">6</td>
+					<td>Lulusan</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($dosen)){
+				?>
+				<tr>
+					<td style="text-align:center;">7</td>
+					<td>Dosen</td>
+					<td style="text-align:center;"><?=(($dosen['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($dosen['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($dosen['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($dosen['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">7</td>
+					<td>Dosen</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($pegawai)){
+				?>
+				<tr>
+					<td style="text-align:center;">8</td>
+					<td>Pegawai</td>
+					<td style="text-align:center;"><?=(($pegawai['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($pegawai['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($pegawai['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($pegawai['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">8</td>
+					<td>Pegawai</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($keuangan)){
+				?>
+				<tr>
+					<td style="text-align:center;">9</td>
+					<td>Keuangan</td>
+					<td style="text-align:center;"><?=(($keuangan['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($keuangan['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($keuangan['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($keuangan['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">9</td>
+					<td>Keuangan</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($inventaris)){
+				?>
+				<tr>
+					<td style="text-align:center;">10</td>
+					<td>Inventaris</td>
+					<td style="text-align:center;"><?=(($inventaris['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($inventaris['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($inventaris['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($inventaris['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">10</td>
+					<td>Inventaris</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+			<?
+			if(isset($perpustakaan)){
+				?>
+				<tr>
+					<td style="text-align:center;">11</td>
+					<td>Perpustakaan</td>
+					<td style="text-align:center;"><?=(($perpustakaan['sistem_pengelolaan'] == 'manual') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($perpustakaan['sistem_pengelolaan'] == 'kom non jaringan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($perpustakaan['sistem_pengelolaan'] == 'lan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+					<td style="text-align:center;"><?=(($perpustakaan['sistem_pengelolaan'] == 'wan') ? '<img style="max-width:15px;" src="'.Yii::app()->baseUrl.'/images/centang.png">':'-')?></td>
+				</tr>
+				<?
+			}else{
+				?>
+				<tr>
+					<td style="text-align:center;">11</td>
+					<td>Perpustakaan</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+					<td style="text-align:center;">-</td>
+				</tr>
+				<?
+			}
+			?>
+		</tbody>
+		<tfoot>
+
+		</tfoot>
+	</table>
+<br>
+<?php } ?>

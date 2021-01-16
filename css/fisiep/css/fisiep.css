@@ -1,0 +1,219 @@
+@import url('../font/roboto.css');
+body {  
+    font: 15px 'RobotoBoldCondensed', arial, sans-serif;
+    font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif;
+    background-image: url('../images/body-bg.png');
+}
+.header{
+    height: 180px;
+    background: #22344E;
+}
+.img-header{
+    height: 135px;
+    width: 100%;
+    /*float: left;*/
+    /*background-image: url('<?php echo Yii::app()->theme->baseUrl; ?>/images/header2.jpg'); */
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+}
+.img-logo{
+    height: 135px;
+    width: 50%;
+    float: left;
+    background-image: url('../images/logougm.png'); 
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.site-sidebar{
+    /*height: 400px;*/
+    width: 105%;
+    margin: 10px;
+    border: 1px solid #D5D5D5;
+    background: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.content{
+    /*height: 265px;*/
+    /*margin: 10px;*/
+    border: 1px solid #D5D5D5;
+    background: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.content-field{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #D5D5D5;
+    background: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.footer{
+    height: 80px;
+    background: #22344E;
+}
+.slide{
+    width: 99%;
+    padding: 3px;
+}
+.infoSlider{
+    display: none;
+    /*width: 700px;*/
+    /*margin-top: 20px;*/
+}
+.field_content{
+    /*box-shadow: 0 0 6px rgba(0,0,0,.10);*/
+    background: #EDEDED;
+    /*Border*/
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.breadcumb{
+    /*height: 30px;*/
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #D5D5D5;
+    background: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+
+/*CSS untuk form*/
+.row{
+    margin-left: 0px;
+}
+
+.menu{
+    /*min-height: 40px;*/
+    /*background: #EDEDED;*/
+    background-image: url('../images/menu2.jpg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    bottom: 0;
+
+    /*Border*/
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.menu li{
+    float: left;
+    z-index: 2;
+    padding:  10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; 
+}
+.menu li a{
+    display: block;
+    color: #FFFFFF;
+}
+.menu li:hover{
+    text-decoration: none;
+    /*background: #22344E;*/
+    color: #FFFFFF;
+}
+.menu li a:hover{
+    text-decoration: none;
+    color: #a9cbfa;
+}
+.menu li.active{
+    color: #FFFFFF;
+    /*background: #22344E;*/
+}
+.menu li.active a{
+    color: #FFFFFF;
+}
+.menu li.active :hover{
+    color: #a9cbfa;
+}
+
+
+/*CSS STYLE FONT*/
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    background: #22344E;
+    color: #FFFFFF;
+    padding-left: 5px;
+}
+
+
+
+/*CSS SYSTEM*/
+.items{
+    width: 98%;
+    float: left;
+}
+.view{
+    padding: 10px;
+    /*background: #EDEDED;*/
+    border-bottom: 1px solid #D5D5D5;
+}
+.filters input{
+    width: 90% !important;
+}
+.items thead tr th{
+    min-width: 50px !important;
+}
+.button-column{
+    width: 78px !important;
+}
+.span-19{
+    width: 70% !important;
+    float: left;
+}
+
+/*CSS menu operation*/
+.last{
+    float: left;
+    width: 25% !important;
+    margin-top: 10px;
+}
+.portlet-decoration{
+    background: #4C99D2;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.operations li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #D5D5D5;
+    margin-left: -25px;
+}
+.operations li a{
+    text-decoration: none;
+}
+.portlet{
+    border: 1px solid #D5D5D5;
+    border-bottom: none;
+}
+.tiny{
+    margin-bottom: 50px !important;
+}
